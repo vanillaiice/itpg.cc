@@ -1,6 +1,6 @@
 <script>
 	import 'beercss';
-	import '../style.css'
+	import '../style.css';
 
 	let themeDark = window.localStorage.getItem('theme') == 'dark' ? true : false;
 
