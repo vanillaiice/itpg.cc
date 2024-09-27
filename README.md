@@ -1,7 +1,7 @@
 # itpg.cc website
 
 This is the source code for the itpg.cc website.
-It is made with sveltekit and beercss.
+It is made with bun, sveltekit and beercss.
 
 # License
 
