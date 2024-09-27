@@ -35,54 +35,44 @@
 </header>
 
 <main class="responsive">
-	<article class="no-padding">
-		<div class="grid no-space">
-			<div class="s7">
-				<img class="responsive" src="/itpg-logo.png" alt="itpg logo" />
-			</div>
-			<div class="s5">
-				<div class="padding">
-					<h5>Is This Professor Good ?</h5>
-					<p>
-						ITPG is a platform where students can grade their professors after taking courses. This
-						allows students to make more informed decisions when choosing their courses.
-					</p>
-					<h6>Relevant Links:</h6>
-					<article>
-						<a class="row wave" href="https://demo.itpg.cc" target="_blank">
-							<i>link</i>
-							Demo website
-						</a>
-						<hr />
-						<a class="row wave" href="https://github.com/vanillaiice/itpg" target="_blank">
-							<i>link</i>
-							Backend Source Code
-						</a>
-						<hr />
-						<a class="row wave" href="https://github.com/vanillaiice/itpg-frontend" target="_blank">
-							<i>link</i>
-							Frontend Client Source Code
-						</a>
-						<hr />
-						<a class="row wave" href="https://github.com/vanillaiice/itpg-seeder" target="_blank">
-							<i>link</i>
-							Go Package to Seed DB with fake data (useful for testing)
-						</a>
-						<hr />
-						<a
-							class="row wave"
-							href="https://github.com/vanillaiice/itpg-docker-compose"
-							target="_blank"
-						>
-							<i>link</i>
-							Docker compose example
-						</a>
-						<hr />
-					</article>
-				</div>
-			</div>
-		</div>
-	</article>
+	<div>
+		<aside class="right small-width small-height padding">
+			<img class="responsive" src="/favicon.png" alt="itpg logo" />
+		</aside>
+		<h5>Is This Professor Good ?</h5>
+		<p class="large-text">
+			ITPG is a platform where students can grade their professors after taking courses. This allows
+			students to make more informed decisions when choosing their courses.
+		</p>
+		<h6>Relevant Links:</h6>
+		<article>
+			<a class="row wave" href="https://demo.itpg.cc" target="_blank">
+				<i>link</i>
+				Demo website
+			</a>
+			<hr />
+			<a class="row wave" href="https://github.com/vanillaiice/itpg" target="_blank">
+				<i>link</i>
+				Backend Source Code
+			</a>
+			<hr />
+			<a class="row wave" href="https://github.com/vanillaiice/itpg-frontend" target="_blank">
+				<i>link</i>
+				Frontend Client Source Code
+			</a>
+			<hr />
+			<a class="row wave wrap" href="https://github.com/vanillaiice/itpg-seeder" target="_blank">
+				<i>link</i>
+				Go Package to Seed DB with fake data
+			</a>
+			<hr />
+			<a class="row wave" href="https://github.com/vanillaiice/itpg-docker-compose" target="_blank">
+				<i>link</i>
+				Docker compose example
+			</a>
+			<hr />
+		</article>
+	</div>
 
 	<footer class="fixed center-align">
 		<p class="no-margin">
